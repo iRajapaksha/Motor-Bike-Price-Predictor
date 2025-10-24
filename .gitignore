@@ -1,2 +1,4 @@
 data/*
 models/*
+app/mlruns/*
+notebooks/mlruns/*

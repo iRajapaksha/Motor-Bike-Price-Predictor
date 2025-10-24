@@ -81,6 +81,25 @@ Motor-Bike-Price-Predictor/
 
 ---
 
+## Model Performance
+
+The trained models were evaluated using the **R² (coefficient of determination)** metric.
+
+| Model        | R² Score |
+|---------------|-----------|
+| Random Forest | **0.9404** |
+| XGBoost       | **0.8711** |
+
+The Random Forest model achieved the best performance and was used for deployment in the Streamlit app.
+### Insights
+- Both models show good predictive ability for real-world motorbike prices.
+- Random Forest slightly outperforms XGBoost, suggesting that ensemble averaging works well for this dataset.
+- Further tuning or feature engineering could improve performance beyond 0.94 R².
+![Model Performance Comparison](app/screenshots/model_performance_comparison.png)
+![Model Error Comparison](app/screenshots/model_error_comparison.png)
+
+---
+
 ## Streamlit Application
 
 ### Run the App
@@ -137,9 +156,9 @@ streamlit --version
 
 - Add feature importance visualization in the UI
 
-## Author
+## Authors
 
 - Ishara Rajapaksha
 - Kavinda Aludeniya
 
-Final-year Computer Engineering Undergraduate, University of Ruhuna
+Computer Engineering Undergraduates, University of Ruhuna

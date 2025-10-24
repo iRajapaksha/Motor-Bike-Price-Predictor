@@ -1,7 +1,5 @@
 # Motorbike Price Prediction in Sri Lanka
 
-![App Screenshot](app/screenshots/ui_preview.png)
-
 A machine learning application that predicts the **market price of used motorbikes** in Sri Lanka based on specifications such as brand, model, engine capacity, mileage, and year.  
 This project includes:
 - A **trained ML pipeline** using `RandomForestRegressor` and `XGBoost`
@@ -92,6 +90,7 @@ streamlit run app.py
 
 ```
 Then open: http://localhost:8501
+![App Screenshot](app/screenshots/ui_preview.png)
 
 
 
